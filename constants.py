@@ -1,3 +1,6 @@
 # shape of ascii text picture
 TEXT_WIDTH = 100
-TEXT_HEIGHT = 80
+TEXT_HEIGHT = 100
+
+RENDER_WIDTH = 256
+RENDER_HEIGHT = 256
