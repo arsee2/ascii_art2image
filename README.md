@@ -10,7 +10,7 @@ to run code use following comand :
 
 python main.py --model model1 --input_file input.txt
 
-It will take txt file and produce result to /output derictory
+It will take txt file and produce result to /output directory
 
 
 To run for input.txt you can use command :
