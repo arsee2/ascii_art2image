@@ -30,7 +30,7 @@ Automatic-Image-Colorization </a>
 
 ### Dataset
 You can use dataset for colorization which are used in initial github or as we you use dataset for art from kaggle<a href="https://www.kaggle.com/c/painter-by-numbers" title="link">
-Art dataset </a>.
+Art dataset </a>. We took trained model and train it on art dataset. therefore transfer learning was used.
 
 
 ## Second Model
