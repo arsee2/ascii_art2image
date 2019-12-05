@@ -12,6 +12,17 @@ build/
 develop-eggs/
 dist/
 downloads/
+
+
+ascii2edges/*
+!ascii2edges/.gitkeep 
+
+colorizer22/*
+!colorizer22/.gitkeep 
+
+edges2img/*
+!edges2img/.gitkeep 
+
 eggs/
 .eggs/
 lib/
