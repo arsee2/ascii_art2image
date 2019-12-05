@@ -1,6 +1,7 @@
 # ascii_art2image
 
 This repository proposes two approaches to converting ASCII art into images (in common sense).
+To run this project locally you should download  [weights](https://drive.google.com/file/d/1FJ_AnUD9Nd6noHf8HZNeEpgKpepx1GYc/view?usp=sharing).
 
 ## First Model 
 The first approach decodes each character into pixel by its intensity, i.e. how much space a pixel takes up.   
