@@ -28,6 +28,11 @@ The colorization contains in colorizer22 folder.
 It uses realization from  <a href="https://github.com/Armour/Automatic-Image-Colorization" title="link">
 Automatic-Image-Colorization </a>
 
+### Dataset
+You can use dataset for colorization which are used in initial github or as we you use dataset for art from kaggle<a href="https://www.kaggle.com/c/painter-by-numbers" title="link">
+Art dataset </a>.
+
+
 ## Second Model
 
 The second approach renders an ASCII image and tries to connect unconnected image parts in order to obtain contours of the image(by means of PIX2PIX).
