@@ -17,8 +17,7 @@ python main.py --model model1
 ### Implementation
 The approach of decoding from image to ascii and from ascii to image contains in pic_to_ascii.py
 The colorization contains in colorizer22 folder.
-It uses realization from  <a href="https://github.com/Armour/Automatic-Image-Colorization" title="Title"> colorization</a>
-
+It uses realization from  <a href="https://github.com/Armour/Automatic-Image-Colorization" title="link"> https://github.com/Armour/Automatic-Image-Colorization </a>
 
 ## Second Model
 
