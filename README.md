@@ -31,3 +31,23 @@ Automatic-Image-Colorization </a>
 
 The second approach renders an ASCII image and tries to connect unconnected image parts in order to obtain contours of the image(by means of PIX2PIX).
 Using these contours it tires to reconstruct to a real object using PIX2PIX network.
+
+### Implementation 
+In order to obtain contours from ascii image, we trained Pix2Pix model that was taken from [link](https://github.com/affinelayer/pix2pix-tensorflow). We trained it on the following dataset: [link](https://github.com/OsciiArt/DeepAA/tree/master/sample%20images) which 
+consists of 23 pair of images (original,ascii image).
+
+
+In order to real object from contours, we trained Pix2Pix model that was taken from [link](https://github.com/affinelayer/pix2pix-tensorflow). We trained it on the following dataset: [link](https://github.com/mtli/PhotoSketch) which 
+consists of contours and original images.
+
+to run code use following comand : 
+
+python main.py --model model2 --input_file input.txt
+
+It will take txt file and produce result to /output directory
+
+
+To run for input.txt you can use command :
+
+python main.py --model model2
+
